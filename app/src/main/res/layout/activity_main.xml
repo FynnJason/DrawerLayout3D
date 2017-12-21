@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app.fynnjason.lib.ResideLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reside_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.fynnjason.drawerlayout3d.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/brown_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="this is left layout,clicking the button or clicking on the right layout to close the sideslip\n这是左边布局，点击右边布局或者点击按钮来关闭侧滑栏"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_marginStart="16dp"
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="close"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBrownPrimary"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="this is right layout,right slide or click button to open the sideslip\n这是右边布局，右滑或者点击按钮来打开侧滑栏"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_marginStart="16dp"
+            android:id="@+id/btn_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="open"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</app.fynnjason.lib.ResideLayout>
