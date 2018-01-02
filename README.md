@@ -1,4 +1,4 @@
-	Step 1. Add the JitPack repository to your build file
+Step 1. Add the JitPack repository to your build file
   ```
   allprojects {
 		repositories {
@@ -8,7 +8,7 @@
 	}
   ```
   
-  Step 2. Add the dependency
+Step 2. Add the dependency
   ```
   	dependencies {
 	        compile 'com.github.FynnJason:DrawerLayout3D:1.0'
